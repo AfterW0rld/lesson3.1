@@ -3,18 +3,18 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        double x, y, a, b;
-        a = 1;
-        b = 2;
-        for (x = a; x < b; x+=0.1){
-            if (Math.cos(x) == 0){
-                break;
-            } else {
-                y = Math.tan(x);
-                System.out.println("y = " + y);
-                System.out.println("x = " + x);
-            }
-        }
+//         double x, y, a, b;
+//         a = 1;
+//         b = 2;
+//         for (x = a; x < b; x+=0.1){
+//             if (Math.cos(x) == 0){
+//                 break;
+//             } else {
+//                 y = Math.tan(x);
+//                 System.out.println("y = " + y);
+//                 System.out.println("x = " + x);
+//             }
+//         }
 //          double x = 1.0,ch=x,p=x,  fz=1, f, sign=+1, sum=x ;
 //          for (f = 3 ; f <=13; f+=2){
 //              sign *= -1;
